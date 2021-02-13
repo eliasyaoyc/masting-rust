@@ -19,3 +19,4 @@
 
 .idea
 target
+*.lock
