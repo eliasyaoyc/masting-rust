@@ -1,4 +1,5 @@
 mod linked_list;
+mod custom_iterator;
 
 struct Character {
     name: String,
