@@ -1,5 +1,5 @@
 [package]
-name = "masting-rust"
+name = "user_auth"
 version = "0.1.0"
 authors = ["Elias.Yao <siran0611@gmail.com>"]
 edition = "2018"
@@ -7,3 +7,4 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+log = { version = "0.4.6", features = ["release_max_level_error", "max_level_trace"] }
